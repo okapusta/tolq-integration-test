@@ -1,0 +1,8 @@
+tolq_auto_client_review: true
+files:
+  - source_file: en.yml
+    source_language: en
+    target_languages:
+      - language: pl
+        target_file: pl.yml
+        quality: machine
