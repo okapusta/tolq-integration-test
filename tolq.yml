@@ -1,8 +1,14 @@
-tolq_auto_client_review: true
+tolq_auto_client_review: false
 files:
   - source_file: en.yml
     source_language: en
     target_languages:
       - language: pl
         target_file: pl.yml
+        quality: machine
+  - source_file: en.json
+    source_language: en
+    target_languages:
+      - language: pl
+        target_file: pl.json
         quality: machine
